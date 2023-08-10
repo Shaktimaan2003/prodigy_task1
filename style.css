@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0px;
+}
+
+.container{
+    max-width: 80vw;
+}
+
+.navbar{
+    display: flex;
+    height: 67px;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.navbar li{
+    list-style: none;
+    margin:  12px;
+
+}
+
+.topleft{
+    width: 50%;
+    height: 50vh;
+}
+
+.topright{
+    width: 50%;
+    height: 50vh;
+}
+
+
+.section1{
+    height: 80vh;
+    
+}
+
+.section1 h1{
+    color: #e34a38;
+}
+
+.logo{
+    font-size: 1.5rem;
+}
+
+.dumbllimg{
+    width: 280px;
+}
+
+.topright{
+    width: 466px;
+}
+
+.section2{
+    padding: 70px;
+    text-align: center;
+}
+
+.section2 h1{
+    font-size: 2.3rem;
+}
+
+.section2 p{
+    padding: 0 8vw;
+    text-align: center;
+}
+
+.box{
+    padding: 8px 0;
+    margin: 12px 22px;
+    min-width: 20vw;
+    border: 2px solid #e34a38;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.box h2{
+    font-size: 2rem;
+    padding: 15px 0;
+}
+
+.highlighted{
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+
+
+.box ul{
+    list-style-type: none;
+}
+
+.box ul{
+    margin: 12px 2px;
+}
+
+.plantable{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section3 table{
+    width: 100%;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+.section3 table th{
+    width: 23vw;
+    border-bottom: 2px solid black;
+    padding: 15px 0;
+}
+
+.section3 table td{
+    border-bottom: 2px solid black;
+    
+
+}
+
+.section3 h1{
+    font-size: 2.3rem;
+}
+
+.section3{
+    padding: 20px;
+
+}
+
+
+footer{
+    padding: 23px;
+    text-align: center;
+
+}
+
+@media (min-width:0px) and (max-width:999px) {
+    .section2{
+        display: inline;
+    }
+   
+}
+
+
+.text-center{
+    padding: 10px 80px;
+}
+
+.navbar-brand{
+    color: #e34a38;
+    font-weight: bolder;
+}
+
+.button{
+    color: #e34a38;
+}
+
+
+
+.content{
+    color: #e34a38;
+}
+
+.containermx-auto{
+    text-align: center;
+}
+
+
+
